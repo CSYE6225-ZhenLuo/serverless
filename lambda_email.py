@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     # if item == None:
     #     return
     # let's see if its working
-    link = "http://demo.zhenluo.me/v1/verifyUserEmail?email=" + email + '&token=' + token
+    link = "https://demo.zhenluo.me/v1/verifyUserEmail?email=" + email + '&token=' + token
     # Replace sender@example.com with your "From" address.
     # This address must be verified with Amazon SES.
     SENDER = "no-reply@demo.zhenluo.me"
